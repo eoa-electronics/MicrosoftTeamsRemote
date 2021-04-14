@@ -1,4 +1,5 @@
-#include <Arduino.h>
+#include "Arduino.h"
+#include "HID.h"
 
 void setup() {
   
