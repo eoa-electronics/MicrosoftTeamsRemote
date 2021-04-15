@@ -62,12 +62,12 @@
 
 //Lighting: Mute
 #define LED_MUTE_ON_EN true
-#define LED_MUTE_OFF_EN true
 #define LED_MUTE_ON_INV false
+#define LED_MUTE_OFF_EN true
 #define LED_MUTE_OFF_INV false
 
 //Lighting: Mute
 #define LED_RAISE_ON_EN true
-#define LED_RAISE_OFF_EN true
 #define LED_RAISE_ON_INV false
+#define LED_RAISE_OFF_EN true
 #define LED_RAISE_OFF_INV false
