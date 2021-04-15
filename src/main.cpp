@@ -81,7 +81,7 @@ void loop() {
       isMute = false;
     } else {
       ledWrite(PIN_LED_MUTE_OFF, LOW, LED_MUTE_OFF_EN, LED_MUTE_OFF_INV);
-      ledWrite(PIN_LED_MUTE_OFF, HIGH, LED_MUTE_ON_EN, LED_MUTE_ON_INV);
+      ledWrite(PIN_LED_MUTE_ON, HIGH, LED_MUTE_ON_EN, LED_MUTE_ON_INV);
       pressCombination(MUTE_KEY_1, MUTE_EN_2, MUTE_KEY_2, MUTE_EN_3, MUTE_KEY_3);
       isMute = true;
     }
