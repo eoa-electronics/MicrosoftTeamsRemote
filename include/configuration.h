@@ -71,3 +71,14 @@
 #define LED_RAISE_ON_INV false
 #define LED_RAISE_OFF_EN true
 #define LED_RAISE_OFF_INV false
+
+
+//**INIT**
+//This is the initailisation section. Here you can define, in which state the remote is on startup
+//You can choose if you are muted or unmuted, and if your hand is raised, when the remote gets connected
+
+//Init: Mute
+#define INIT_MUTE true
+
+//Init: Hand-Raised
+#define INIT_RAISE false

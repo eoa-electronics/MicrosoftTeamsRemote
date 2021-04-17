@@ -4,8 +4,8 @@
 #include "configuration.h"
 #include "pins.h"
 
-bool isMute = true;
-bool isRaise = false;
+bool isMute = INIT_MUTE;
+bool isRaise = INIT_RAISE;
 
 void pinModeOutOff(int pin) {
   pinMode(pin, OUTPUT);
