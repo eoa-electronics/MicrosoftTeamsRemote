@@ -85,6 +85,7 @@ void loop() {
       pressCombination(MUTE_KEY_1, MUTE_EN_2, MUTE_KEY_2, MUTE_EN_3, MUTE_KEY_3);
       isMute = true;
     }
+    delay(400);
   }
   if(btRead(PIN_BT_RAISE, BT_RAISE_EN, BT_RAISE_INV)) {
     if(!isRaise) {
@@ -98,5 +99,6 @@ void loop() {
       pressCombination(UNRAISE_KEY_1, UNRAISE_EN_2, UNRAISE_KEY_2, UNRAISE_EN_3, UNRAISE_KEY_3);
       isRaise = false;
     }
+    delay(400);
   }
 }
